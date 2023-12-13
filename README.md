@@ -222,16 +222,14 @@ All Databricks resources bypass policy enforcement at creation time. Databricks 
 
 ### Resource types that exceed current enforcement and compliance scale
 
-There some resource types that are generated at very high scale. These are not suitable for management by Azure Policy because the enforcement and compliance checks create overhead that can negatively impact the performance of the API itself. Most of these are not significant policy scenarios, but there are a few exceptions.
-
-These are resource types that have significant policy scenarios, but are not supported by Azure Policy due to the above scalability considerations:
+There are some resource types that are generated at very high scale. These are not suitable for management by Azure Policy because the enforcement and compliance checks create overhead that can negatively impact the performance of the API itself. These resource types are not supported by Azure Policy:
 
 - Microsoft.ServiceBus/namespaces/topics
 - Microsoft.ServiceBus/namespaces/topics/authorizationRules
 - Microsoft.ServiceBus/namespaces/topics/subscriptions
 - Microsoft.ServiceBus/namespaces/topics/subscriptions/rules
 
-Work to increase the scale that policy can be performantly applied to resource types is in progress. Planned availability date is not yet determined.
+Work to increase the scale that policy can be performantly applied to resource types is ongoing and we review the above list periodically; however, as of now there is no plan to onboard the above resource types.
 
 ### Azure Policy Add-on not compatible on AKS Kubernetes 1.19 (preview) version
 1.19 clusters will return this error via gatekeeper controller and policy webhook pods: 
