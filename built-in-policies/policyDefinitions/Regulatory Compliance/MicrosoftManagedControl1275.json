@@ -8,6 +8,7 @@
       "category": "Regulatory Compliance",
       "additionalMetadataId": "/providers/Microsoft.PolicyInsights/policyMetadata/ACF1275"
     },
+    "version": "1.0.0",
     "policyRule": {
       "if": {
         "allOf": [
@@ -27,7 +28,10 @@
       "then": {
         "effect": "audit"
       }
-    }
+    },
+    "versions": [
+      "1.0.0"
+    ]
   },
   "id": "/providers/Microsoft.Authorization/policyDefinitions/a23d9d53-ad2e-45ef-afd5-e6d10900a737",
   "name": "a23d9d53-ad2e-45ef-afd5-e6d10900a737"

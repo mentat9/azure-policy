@@ -8,6 +8,7 @@
       "version": "1.0.0",
       "category": "Compute"
     },
+    "version": "1.0.0",
     "parameters": {},
     "policyRule": {
       "if": {
@@ -49,7 +50,10 @@
       "then": {
         "effect": "audit"
       }
-    }
+    },
+    "versions": [
+      "1.0.0"
+    ]
   },
   "id": "/providers/Microsoft.Authorization/policyDefinitions/06a78e20-9358-41c9-923c-fb736d382a4d",
   "name": "06a78e20-9358-41c9-923c-fb736d382a4d"

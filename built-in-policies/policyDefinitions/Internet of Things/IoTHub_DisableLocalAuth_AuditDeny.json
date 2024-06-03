@@ -8,6 +8,7 @@
       "version": "1.0.0",
       "category": "Internet of Things"
     },
+    "version": "1.0.0",
     "parameters": {
       "effect": {
         "type": "String",
@@ -39,7 +40,10 @@
       "then": {
         "effect": "[parameters('effect')]"
       }
-    }
+    },
+    "versions": [
+      "1.0.0"
+    ]
   },
   "id": "/providers/Microsoft.Authorization/policyDefinitions/672d56b3-23a7-4a3c-a233-b77ed7777518",
   "name": "672d56b3-23a7-4a3c-a233-b77ed7777518"

@@ -9,6 +9,7 @@
       "category": "Security Center",
       "deprecated": true
     },
+    "version": "1.0.0",
     "parameters": {
       "effect": {
         "type": "string",
@@ -58,7 +59,10 @@
           }
         }
       }
-    }
+    },
+    "versions": [
+      "1.0.0"
+    ]
   },
   "id": "/providers/Microsoft.Authorization/policyDefinitions/c85538c1-b527-4ce4-bdb4-1dabcb3fd90d",
   "name": "c85538c1-b527-4ce4-bdb4-1dabcb3fd90d"

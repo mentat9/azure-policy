@@ -8,6 +8,7 @@
       "category": "Kubernetes",
       "version": "1.0.0"
     },
+    "version": "1.0.0",
     "parameters": {
       "ExtensionVersion": {
         "type": "String",
@@ -157,7 +158,10 @@
           }
         }
       }
-    }
+    },
+    "versions": [
+      "1.0.0"
+    ]
   },
   "id": "/providers/Microsoft.Authorization/policyDefinitions/73868911-4f4a-444f-adbd-5382bf70208a",
   "name": "73868911-4f4a-444f-adbd-5382bf70208a"

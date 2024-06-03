@@ -8,6 +8,7 @@
       "version": "1.0.0",
       "category": "Azure Arc"
     },
+    "version": "1.0.0",
     "parameters": {
       "effect": {
         "type": "String",
@@ -39,7 +40,10 @@
       "then": {
         "effect": "[parameters('effect')]"
       }
-    }
+    },
+    "versions": [
+      "1.0.0"
+    ]
   },
   "id": "/providers/Microsoft.Authorization/policyDefinitions/898f2439-3333-4713-af25-f1d78bc50556",
   "name": "898f2439-3333-4713-af25-f1d78bc50556"

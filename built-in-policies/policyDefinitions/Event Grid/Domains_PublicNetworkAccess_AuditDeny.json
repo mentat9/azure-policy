@@ -6,6 +6,7 @@
       "version": "1.0.0",
       "category": "Event Grid"
     },
+    "version": "1.0.0",
     "policyType": "BuiltIn",
     "mode": "Indexed",
     "parameters": {
@@ -39,7 +40,10 @@
       "then": {
         "effect": "[parameters('effect')]"
       }
-    }
+    },
+    "versions": [
+      "1.0.0"
+    ]
   },
   "id": "/providers/Microsoft.Authorization/policyDefinitions/f8f774be-6aee-492a-9e29-486ef81f3a68",
   "name": "f8f774be-6aee-492a-9e29-486ef81f3a68"

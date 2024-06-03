@@ -9,6 +9,7 @@
       "category": "Kubernetes",
       "deprecated": true
     },
+    "version": "6.2.0",
     "parameters": {
       "effect": {
         "type": "String",
@@ -134,7 +135,10 @@
           }
         }
       }
-    }
+    },
+    "versions": [
+      "6.2.0"
+    ]
   },
   "id": "/providers/Microsoft.Authorization/policyDefinitions/440b515e-a580-421e-abeb-b159a61ddcbc",
   "name": "440b515e-a580-421e-abeb-b159a61ddcbc"
